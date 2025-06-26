@@ -63,10 +63,8 @@ pipeline {
                             -Dsonar.projectKey=angel_c_test_2 \
                             -Dsonar.sources=./src \
                             -Dsonar.language=c \
-                            -Dsonar.cxx.file.suffixes=.h,.c
-                            -Dsonar.cfamily.compile-commands=./build/bw-output/compile_commands.json \
+                            -Dsonar.cxx.file.suffixes=.h,.c \
                             -Dsonar.sourceEncoding=UTF-8 \
-                            -Dsonar.cfamily.cache.enabled=true
                         '''
                     }
                 }   
